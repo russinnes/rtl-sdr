@@ -233,7 +233,7 @@ struct controller_state controller;
 void usage(void)
 {
 	fprintf(stderr,
-		"rtl_fm, a simple narrow band FM demodulator for RTL2832 based DVB-T receivers\n\n"
+		"rtl_fm, a simple narrow band FM demodulator for RTL2832 based DVB-T receivers, TEST VERSION\n\n"
 		"Use:\trtl_fm -f freq [-options] [filename]\n"
 		"\t-f frequency_to_tune_to [Hz]\n"
 		"\t    use multiple -f for scanning (requires squelch)\n"
